@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from "react";
 import { toast } from "react-toastify";
-import { StoreContext } from "../../context/StoreContext";
+import { StoreContext } from "../../context/StoreContext.jsx";
 import { useNavigate } from "react-router-dom";
 import { assets } from "../../assets/assets";
 import "./orders.css";
