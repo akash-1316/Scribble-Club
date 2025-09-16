@@ -3,7 +3,7 @@ import {
   loginUser,
   registerUser,
   refreshToken,
-} from "../controllers/userController.js";
+} from "../Controllers/userController.js";
 import auth from "../middlewares/authMiddleware.js";
 import User from "../models/User.js";
 import upload from "../middlewares/uploadMiddleware.js";
