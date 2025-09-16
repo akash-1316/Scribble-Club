@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 export const StoreContext = createContext();
 
 const StoreContextProvider = (props) => {
-  const url = "http://localhost:5000";
+  const url = "https://scribble-club-backend.onrender.com";
   const [token, setToken] = useState(localStorage.getItem("token") || "");
   const [user, setUser] = useState(JSON.parse(localStorage.getItem("user")) || null);
   const [isAdmin, setIsAdmin] = useState(false);
