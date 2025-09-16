@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useContext } from "react";
-import { StoreContext } from "../../context/StoreContext";
+import { StoreContext } from "../../context/StoreContext.jsx";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
 import "./Messages.css";
