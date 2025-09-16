@@ -1,0 +1,139 @@
+.product-detail {
+  display: flex;
+  gap: 40px;
+  padding: 30px;
+  font-family: "Dosis", sans-serif;
+}
+
+.product-images img {
+  width: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.current-price {
+  color: #4f46e5;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: gray;
+  margin-right: 10px;
+}
+
+.offer {
+  color: green;
+}
+
+.emi {
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0 15px;
+}
+
+.stock {
+  color: green;
+  margin-bottom: 15px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.quantity button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background: #eee;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.add-to-cart {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: #5a33e4;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.wishlist {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: white;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.tabs {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.tab-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.tab-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.tab-header:hover {
+  color: #5a33e4;
+}
+
+.tab-content {
+  padding: 10px 0 15px 0;
+  font-size: 15px;
+  color: #444;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@media (max-width: 768px) {
+  .product-detail {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-images img {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .product-info {
+    width: 100%;
+  }
+}

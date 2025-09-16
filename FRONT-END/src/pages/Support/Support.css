@@ -1,0 +1,95 @@
+/* Support.css */
+.support-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 40px 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  font-family: 'Dosis',sans-serif;
+}
+
+.support-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+   font-family: "Asimovian",sans-serif;
+}
+a 
+{
+    text-decoration: none;
+    color: black;
+}
+.support-container p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.support-info h3 {
+  margin-top: 15px;
+}
+
+.support-info p {
+  margin: 5px 0 15px;
+  color: #333;
+}
+
+.support-info a {
+  text-decoration: none;
+}
+
+.support-info a:hover {
+  text-decoration: underline;
+}
+
+.support-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.support-form input,
+.support-form textarea {
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+  resize: none;
+}
+
+.support-form button {
+  background-color:black;
+  color: #fff;
+  padding: 15px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.support-form button:hover {
+  background-color:black;
+}
+
+.success-message {
+  margin-top: 15px;
+  color: green;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .support-container {
+    margin: 30px 15px;
+    padding: 30px 20px;
+  }
+
+  .support-container h1 {
+    font-size: 2em;
+  }
+}
