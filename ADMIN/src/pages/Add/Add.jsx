@@ -3,7 +3,7 @@ import "./Add.css";
 import { assets } from "../../assets/assets";
 import axios from "axios";
 import { toast } from "react-toastify";
-import { StoreContext } from "../../context/StoreContext.jsx";
+import { StoreContext } from "../../Context/StoreContext.jsx";
 import { useNavigate } from "react-router-dom";
 
 const AddArt = ({ url }) => {
