@@ -30,10 +30,9 @@ const Login = () => {
         login(accessToken, user);
         
         toast.success("Login successful!");
-        navigate("/");
         // Redirect based on role
         if (user.role === "admin") {
-          navigate("/");
+          navigate("/add");
         } else {
           navigate("/");
         }
