@@ -124,9 +124,11 @@ const Navbar = ({ setShowLogin }) => {
                 onClick={() => setIsOpen(false)}
               />
             </div>
+            <button onClick={() => navigate("/profile")}>Profile</button>
+            <button onClick={() => navigate("/cart")}>Cart</button>
             <button onClick={() => navigate("/myorders")}>My Orders</button>
             <button onClick={() => navigate("/fav")}>Wishlist</button>
-            <button onClick={() => navigate("/profile")}>Profile</button>
+            <button onClick={() => navigate("/support")}>Contact Us</button>
             <button onClick={logout}>Logout</button>
           </div>
         )}
