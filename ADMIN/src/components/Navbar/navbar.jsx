@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="logo">
           <img src={assets.logo} className="main" alt="logo" />
           <div className="line"></div>
-          <Link to="/">🎨 ArtWeb</Link>
+          <Link to="/">Scribble Club</Link>
         </div>
 
         {token ? (
