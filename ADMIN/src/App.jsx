@@ -10,7 +10,7 @@ import List from "./pages/List/list";
 import Order from './pages/Orders/order'
 import Messages from './pages/Messages/messages';
 const App = () => {
-  const url = "http://localhost:5000";
+  const url = "https://scribble-club-backend.onrender.com";
   return (
     <div>
        <ToastContainer />
