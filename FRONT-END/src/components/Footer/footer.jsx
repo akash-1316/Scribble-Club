@@ -61,7 +61,7 @@ const footer = () => {
     <div className="footer-rights">
      <div className="line-p"></div>
      <div className="matter">
-       © Artweb 2025. All Rights Reserved.
+       © Scribble-Club 2025. All Rights Reserved.
      </div>
      <div className="line-q"></div>
     </div>
