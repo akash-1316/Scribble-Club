@@ -2,6 +2,7 @@ import React from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import assets from '../../assets/assets';
 const carousel = () => {
       const settings = {
     dots: true,          // Show navigation dots
@@ -13,9 +14,9 @@ const carousel = () => {
     autoplaySpeed: 2000, // Time between slides
   };
     const slides = [
-    { id: 1, url: "https://i.ibb.co/G37Jdr9h/Chat-GPT-Image-Jul-13-2026-01-25-23-PM.png" },
-    { id: 2, url: "https://rukminim2.flixcart.com/fk-p-flap/2020/340/image/0ff829b905a5dd77.jpeg?q=60" },
-    { id: 3, url: "https://rukminim2.flixcart.com/fk-p-flap/2020/340/image/4476a7293432984c.jpeg?q=60" }
+    { id: 1, url: assets.caro1 },
+    { id: 2, url: assets.caro2 },
+    { id: 3, url: assets.caro3 }
   ];
   return (
     <div className='hii'>
