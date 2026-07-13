@@ -10,6 +10,9 @@ import profile_icon from './profile_icon.png';
 import bag_icon from './bag_icon.png';
 import parcel_icon from './parcel_icon.png';
 import profile_default from './profile-default.jpg'
+import caro1 from './caro1.png'
+import caro2 from './caro2.png'
+import caro3 from './caro3.png'
  const assets = {
    logo,
     pro1,
@@ -22,7 +25,10 @@ import profile_default from './profile-default.jpg'
     profile_icon,
     bag_icon,
     parcel_icon,
-    profile_default
+    profile_default,
+    caro1,
+    caro2,
+    caro3
 }
 
 
